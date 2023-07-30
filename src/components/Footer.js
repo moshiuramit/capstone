@@ -1,6 +1,11 @@
 function Footer() {
     return (
-        <footer>This is Header</footer>
+        <footer className="footer">
+            <div className="container">
+                copyright &copy; @2023 moshiuramit
+            </div>
+
+        </footer>
      );
 };
 

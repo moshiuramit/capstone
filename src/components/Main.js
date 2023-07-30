@@ -1,6 +1,10 @@
 function Main() {
     return (
-        <main>This is Main</main>
+        <main className="main">
+            <div className="container">
+                Main contents will be stay Here 
+            </div>
+        </main>
      );
 };
 

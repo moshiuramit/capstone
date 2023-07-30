@@ -1,8 +1,14 @@
 {
-  "name": "capstone",
-  "version": "0.1.0",
+  "name": "little-lemon-capstone",
+  "version": "0.2.0",
   "private": true,
+  "author": "Moshiur Rahman Amit",
+  "main": "index.js",
+  "respository": "https://github.com/moshiuramit/capstone.git",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -16,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test:cv": "react-scripts test --coverage --verbose",
+    "eject": "react-scripts eject",
+    "clean": "rm -rf coverage"
   },
   "eslintConfig": {
     "extends": [

@@ -2,6 +2,7 @@
   background-color: white;
   padding: 12% 12% 205px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 #about-images {
